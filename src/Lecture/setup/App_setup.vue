@@ -18,6 +18,11 @@ export default {
       increament,
     };
   },
+  // setup 함수의 첫 번째 매개변수는 props 두 번째 매개변수는 context
+  // context.attrs 속성 $attrs와 동일한 비반응형 객체
+  // context.slots 속성 $slot에 해당하는 비반응형 객체
+  // 이벤트 발생 $emit에 해당하는 함수
+  // Public한 속성, 함수를 외부에 노출 시에 사용
 };
 </script>
 
